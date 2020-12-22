@@ -15,6 +15,7 @@ def talk(text):
 
 
 def take_command():
+	command = ""
     try:
         with sr.Microphone() as source:
             print('listening...')
