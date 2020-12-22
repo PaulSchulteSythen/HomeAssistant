@@ -22,6 +22,8 @@ while(True):
 				print("I'm fine")
 			else:
 				print(text)
+				if text.startswith("james"):
+					print("I didnt get you")
 	except KeyboardInterrupt:
 		break
 	except:
